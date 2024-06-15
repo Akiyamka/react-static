@@ -1,0 +1,28 @@
+{
+  "name": "react-static",
+  "version": "0.0.0",
+  "description": "",
+  "main": "./src/index.ts",
+  "type": "module",
+  "scripts": {
+    "gen": "tsx ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "Akiyamka",
+  "license": "ISC",
+  "packageManager": "pnpm@9.0.4+sha512.c374b52de3de88c58fd8333df664a737279cdb0e1344ba4054d3b1fffa9a1a3670854f755dca4f16adea3f14be9896a7fcaf167409fe0c1ad60475271dafe81a",
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.4.5",
+    "typescript-plugin-css-modules": "^5.1.0"
+    },
+    "dependencies": {
+    "squirrelly": "^9.0.0",
+    "esbuild": "^0.21.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tsx": "^4.15.5"
+  }
+}
